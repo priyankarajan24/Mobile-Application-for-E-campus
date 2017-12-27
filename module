@@ -1,9 +1,8 @@
 MODULE SPLIT-UP:
-
-Login page
-Profile
-Dashboard
-Attendence View
-Internal Marks View
-Class Notes
-Time Table View
+User Module
+Database Module
+Staff Module
+Attendence Module
+Feedback Module
+Result Generation Module
+Notification Module
