@@ -1,13 +1,13 @@
 # MODULE SPLIT-UP                   ROLL NO                            NAME
 
 # User Module                      
-## Database Module
+## i) Database Module
 
 # Staff Module
-## Attendence Module
+## i) Attendence Module
 
 # Notification Module
-## Result Generation Module
+## i)Result Generation Module
 
 # Feedback Module
 
