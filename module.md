@@ -9,5 +9,6 @@
 # Feedback Module
 ## i) Notification Module                       14csb41                        Sugumar.V
 
-# Result Generation Module                      14csb09                        Priyanka.R
+# Result Generation Module                     
+## i) Internal Marks                            14csb09                        Priyanka.R
 
