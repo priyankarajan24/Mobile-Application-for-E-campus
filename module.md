@@ -7,7 +7,7 @@
 ## i) Attendence Module
 
 # Notification Module
-## i) Result Generation Module
+## i) Feedback Module
 
-# Feedback Module
+# Result Generation Module
 
