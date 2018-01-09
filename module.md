@@ -7,8 +7,8 @@
 ## i) Attendence Module                         14csb09                        Priyanka.R
 
 # Feedback Module
-## i) Notification Module                       14csb41                        Sugumar.V
+## i) Notification Module                       14csb22                        Sharath.R
 
 # Result Generation Module                     
-## i) Internal Marks                            14csb22                        Sharath.R
+## i) Internal Marks                            14csb41                        Sugumar.V
 
