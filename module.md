@@ -4,7 +4,7 @@
 ## i) Database Module                           14csb16                        Sakthi Sree.N
 
 # Staff Module
-## i) Attendence Module                         14csb09                        Priyanka.R
+## i) Attendance Module                         14csb09                        Priyanka.R
 
 # Feedback Module
 ## i) Notification Module                       14csb22                        Sharath.R
