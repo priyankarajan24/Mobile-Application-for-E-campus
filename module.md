@@ -1,14 +1,14 @@
-# MODULE SPLIT-UP                               ROLL NO                            NAME
+# MODULE SPLIT-UP                                  ROLL NO                            NAME
 
 # User Module                      
-## i) Notification Module                           14csb16                        Sakthi Sree.N
+## i) Notification Marks                           14csb16                        Sakthi Sree.N
 
 # Student Module
-## i) Attendance Module                             14csb09                        Priyanka.R
+## i) Attendance Module                            14csb09                        Priyanka.R
 
 # Feedback Module
-## i) Database Module                               14csb22                        Sharath.R
+## i) Database Module                              14csb22                        Sharath.R
 
 # Result Generation Module                     
-## i) Internal Marks                                14csb41                        Sugumar.V
+## i)  Internal mark Module                         14csb41                        Sugumar.V
 
