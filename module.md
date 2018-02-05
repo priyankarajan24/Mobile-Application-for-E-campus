@@ -1,7 +1,7 @@
 # MODULE SPLIT-UP                                  ROLL NO                            NAME
 
 # User Module                      
-## i) Notification Marks                           14csb16                        Sakthi Sree.N
+## i) Notification Module                           14csb16                        Sakthi Sree.N
 
 # Student Module
 ## i) Attendance Module                            14csb09                        Priyanka.R
