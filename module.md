@@ -6,8 +6,8 @@
 # Student Module
 ## i) Attendance Module                            14csb09                        Priyanka.R
 
-# Feedback Module
-## i) Database Module                              14csb22                        Sharath.R
+# Database Module
+## i) Feedback Module                              14csb22                        Sharath.R
 
 # Result Generation Module                     
 ## i)  Internal mark Module                         14csb41                        Sugumar.V
