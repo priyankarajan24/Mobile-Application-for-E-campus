@@ -3,7 +3,7 @@
 # User Module                      
 ## i) Notification Module                           14csb16                        Sakthi Sree.N
 
-# Student Module
+# TimeTable Module
 ## i) Attendance Module                            14csb09                        Priyanka.R
 
 # Database Module
