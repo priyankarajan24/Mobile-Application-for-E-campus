@@ -1,7 +1,6 @@
 # MODULE SPLIT-UP                                  ROLL NO                            NAME
 
-# i)User Module
-# ii)Notification module                           14csb16                          Sakthi Sree.N
+# i)User Module                                    14csb16                          Sakthi Sree.N
 
 # i)TimeTable Module                               14csb09                          Priyanka.R
 
