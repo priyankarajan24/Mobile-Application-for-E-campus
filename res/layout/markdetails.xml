@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp" 
+            android:gravity="center">
+            </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                        	android:paddingLeft="35dp"
+            	android:paddingRight="35dp"
+                 android:layout_height="wrap_content" >
+              
+          
+
+            <TextView
+                android:id="@+id/im1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textColorHint="#d9e5f3"
+                android:background="@drawable/border"
+                android:textSize="16dp"
+                android:inputType="text"
+                android:paddingTop="5dp"
+            	android:paddingBottom="5dp"
+            	android:paddingLeft="5dp"
+            	android:paddingRight="5dp"
+                android:textColor="#000000"
+                />
+
+
+       
+       </TableRow>
+        <TableRow
+         android:layout_width="match_parent"
+            android:layout_height="10dp" 
+            android:gravity="center">
+            </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                        	android:paddingLeft="35dp"
+            	android:paddingRight="35dp"
+                 android:layout_height="wrap_content" >
+              
+          
+
+            <TextView
+                android:id="@+id/im2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+              
+                android:textColorHint="#d9e5f3"
+                android:background="@drawable/border"
+                android:textSize="16dp"
+                android:paddingTop="5dp"
+            	android:paddingBottom="5dp"
+            	android:paddingLeft="5dp"
+            	android:paddingRight="5dp"
+                android:textColor="#000000"
+                android:inputType="text"
+                />
+
+
+       
+       </TableRow>
+             
+          <TableRow
+         android:layout_width="match_parent"
+            android:layout_height="10dp" 
+            android:gravity="center">
+            </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                android:paddingLeft="35dp"
+            	android:paddingRight="35dp"
+                 android:layout_height="wrap_content" >
+              
+          
+
+            <TextView
+                android:id="@+id/im3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/border"
+                android:textSize="16dp"
+                android:inputType="text"
+                android:paddingTop="5dp"
+            	android:paddingBottom="5dp"
+            	android:paddingLeft="5dp"
+            	android:paddingRight="5dp"
+                android:textColor="#000000"
+              />
+
+
+       
+       </TableRow>  
+           
+          <TableRow
+         android:layout_width="match_parent"
+            android:layout_height="10dp" 
+            android:gravity="center">
+            </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                android:paddingLeft="35dp"
+            	android:paddingRight="35dp"
+                 android:layout_height="wrap_content" >
+              
+          
+
+            <TextView
+                android:id="@+id/im4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/border"
+                android:textSize="16dp"
+                android:inputType="text"
+                android:paddingTop="5dp"
+            	android:paddingBottom="5dp"
+            	android:paddingLeft="5dp"
+            	android:paddingRight="5dp"
+                android:textColor="#000000"
+              />
+
+
+       
+       </TableRow>  
+           
+          <TableRow
+         android:layout_width="match_parent"
+            android:layout_height="10dp" 
+            android:gravity="center">
+            </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                android:paddingLeft="35dp"
+            	android:paddingRight="35dp"
+                 android:layout_height="wrap_content" >
+              
+          
+
+            <TextView
+                android:id="@+id/im5"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/border"
+                android:textSize="16dp"
+                android:inputType="text"
+                android:paddingTop="5dp"
+            	android:paddingBottom="5dp"
+            	android:paddingLeft="5dp"
+            	android:paddingRight="5dp"
+                android:textColor="#000000"
+              />
+
+
+       
+       </TableRow>   
+</LinearLayout>

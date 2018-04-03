@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Campus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_attendance">Attendance</string>
+    <string name="title_activity_time_table">TimeTable</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="sem">
+        <item>Choose Semester</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="title_activity_marks">Marks</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_view_map">ViewMap</string>
+
+</resources>
