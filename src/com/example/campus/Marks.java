@@ -22,7 +22,7 @@ import android.widget.ListView;
 import android.widget.Spinner;
 
 public class Marks extends Activity {
-      Button imark,emark;  
+      Button imark;  
       String sname,regno;
  	 	ListView list;
  	 	String p1,p2,p3,p4,p5,p6,p7,p8;
@@ -34,7 +34,6 @@ public class Marks extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_marks);
 		imark=(Button)findViewById(R.id.imark);
-		emark=(Button)findViewById(R.id.emark);
 		Intent intent = getIntent();
 		  regno= intent.getStringExtra("regno");
 		  sname= intent.getStringExtra("sname");
@@ -121,52 +120,6 @@ public class Marks extends Activity {
 	}
 	
 	
-	
-	
-	
-	private ArrayList<HashMap<String, String>> SoapGetmobno1() {
-		ArrayList<HashMap<String, String>> lista = new ArrayList<HashMap<String, String>>();
-		String SOAP_ACTION = "http://tempuri.org/emarks";
-		String METHOD_NAME = "emarks";
-		String NAMESPACE = "http://tempuri.org/";
-		String URL = "http://localhost/android/campus/Service.asmx";
-		SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
-		try{
-			request.addProperty("regno", regno);
-			SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(
-					SoapEnvelope.VER11);
-			envelope.dotNet = true;
-			envelope.setOutputSoapObject(request);
-			HttpTransportSE androidHttpTransport = new HttpTransportSE(URL);
-			androidHttpTransport.call(SOAP_ACTION, envelope);
-			SoapObject response = (SoapObject) envelope.getResponse();
-			for (int i = 0; i < response.getPropertyCount(); i++) {
-				SoapObject aresponse = (SoapObject) response.getProperty(i);
-				p1=aresponse.getProperty("p1").toString();
-				p2=aresponse.getProperty("p2").toString();
-				p3=aresponse.getProperty("p3").toString();
-				p4=aresponse.getProperty("p4").toString();
-				p5=aresponse.getProperty("p5").toString();
-				data = new HashMap<String, String>();
-				data.put("p1", p1);
-				data.put("p2", p2);
-				
-				data.put("p3", p3);
-				data.put("p4", p4);
-				
-				data.put("p5", p5);
-				lista.add(data);
-				
-				Log.e("Values",p1+"   "+p1);
-			}	
-		}
-		
-		catch(Exception e){
-			e.printStackTrace();
-		}
-		return lista;
-		
-	}
 	
 	
 	
