@@ -46,7 +46,7 @@ public class Feedback extends Activity {
 //		       			String SOAP_ACTION = "http://tempuri.org/InsertService";
 //		       			String METHOD_NAME = "InsertService";
 //		       			String NAMESPACE = "http://tempuri.org/";
-//		       			String URL = "http://athidharman.in/android/campus/Service.asmx";
+//		       			String URL = "http://localhost/android/campus/Service.asmx";
 //		       			
 //
 //		       			SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
@@ -85,7 +85,7 @@ public class Feedback extends Activity {
 	
 	  private void sendEmail() {
 	        //Getting content for email
-	        String email = "ragu.exe@gmil.com";
+	        String email = "ecampuskgisl@gmil.com";
 	        String subject = "Feedback";
 	        String message =e1.getText().toString() +"by "+regno;
 	        
