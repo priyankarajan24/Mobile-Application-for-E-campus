@@ -80,7 +80,7 @@ public class Marks extends Activity {
 		String SOAP_ACTION = "http://tempuri.org/imarks1";
 		String METHOD_NAME = "imarks1";
 		String NAMESPACE = "http://tempuri.org/";
-		String URL = "http://athidharman.in/android/campus/Service.asmx";
+		String URL = "http://localhost/android/campus/Service.asmx";
 		SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
 		try{
 			request.addProperty("regno", regno);
@@ -129,7 +129,7 @@ public class Marks extends Activity {
 		String SOAP_ACTION = "http://tempuri.org/emarks";
 		String METHOD_NAME = "emarks";
 		String NAMESPACE = "http://tempuri.org/";
-		String URL = "http://athidharman.in/android/campus/Service.asmx";
+		String URL = "http://localhost/android/campus/Service.asmx";
 		SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
 		try{
 			request.addProperty("regno", regno);
