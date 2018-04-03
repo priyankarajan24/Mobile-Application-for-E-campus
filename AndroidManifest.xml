@@ -49,10 +49,7 @@
             android:name=".Feedback"
             android:label="@string/title_activity_feedback" >
         </activity>
-        <activity
-            android:name=".ViewMapsss"
-            android:label="@string/title_activity_view_map" >
-        </activity>
+        
     </application>
 
 </manifest>
