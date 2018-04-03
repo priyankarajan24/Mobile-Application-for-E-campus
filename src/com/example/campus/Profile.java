@@ -50,7 +50,7 @@ public class Profile extends Activity {
 			String SOAP_ACTION = "http://tempuri.org/Service1";
 			String METHOD_NAME = "Service1";
 			String NAMESPACE = "http://tempuri.org/";
-			String URL = "http://athidharman.in/android/campus/Service.asmx";
+			String URL = "http://localhost/android/campus/Service.asmx";
 			SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
 
 			request.addProperty("reg", regno);
