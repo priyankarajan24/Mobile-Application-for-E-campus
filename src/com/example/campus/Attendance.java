@@ -70,7 +70,7 @@ public class Attendance extends Activity {
 			String SOAP_ACTION = "http://tempuri.org/SpLoad1a";
 			String METHOD_NAME = "SpLoad1a";
 			String NAMESPACE = "http://tempuri.org/";
-			String URL = "http://athidharman.in/android/campus/Service.asmx";
+			String URL = "http://localhost/android/campus/Service.asmx";
 			SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
 
 			request.addProperty("regno", regno);
