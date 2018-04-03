@@ -86,7 +86,7 @@ public class TimeTable extends Activity {
 			String SOAP_ACTION = "http://tempuri.org/mdayservice";
 			String METHOD_NAME = "mdayservice";
 			String NAMESPACE = "http://tempuri.org/";
-			String URL = "http://athidharman.in/android/campus/Service.asmx";
+			String URL = "http://localhost/android/campus/Service.asmx";
 			SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
 
 			request.addProperty("reg", regno);
@@ -127,7 +127,7 @@ public class TimeTable extends Activity {
 			String SOAP_ACTION = "http://tempuri.org/mdayservice";
 			String METHOD_NAME = "mdayservice";
 			String NAMESPACE = "http://tempuri.org/";
-			String URL = "http://athidharman.in/android/campus/Service.asmx";
+			String URL = "http://localhost/android/campus/Service.asmx";
 			SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
 
 			request.addProperty("reg", regno);
@@ -170,7 +170,7 @@ public class TimeTable extends Activity {
 			String SOAP_ACTION = "http://tempuri.org/mdayservice";
 			String METHOD_NAME = "mdayservice";
 			String NAMESPACE = "http://tempuri.org/";
-			String URL = "http://athidharman.in/android/campus/Service.asmx";
+			String URL = "http://localhost/android/campus/Service.asmx";
 			SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
 
 			request.addProperty("reg", regno);
@@ -212,7 +212,7 @@ try {
 			String SOAP_ACTION = "http://tempuri.org/mdayservice";
 			String METHOD_NAME = "mdayservice";
 			String NAMESPACE = "http://tempuri.org/";
-			String URL = "http://athidharman.in/android/campus/Service.asmx";
+			String URL = "http://localhost/android/campus/Service.asmx";
 			SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
 
 			request.addProperty("reg", regno);
@@ -253,7 +253,7 @@ try {
 			String SOAP_ACTION = "http://tempuri.org/mdayservice";
 			String METHOD_NAME = "mdayservice";
 			String NAMESPACE = "http://tempuri.org/";
-			String URL = "http://athidharman.in/android/campus/Service.asmx";
+			String URL = "http://localhost/android/campus/Service.asmx";
 			SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
 
 			request.addProperty("reg", regno);
