@@ -57,22 +57,6 @@ public class Marks extends Activity {
 				
 			}
 		});
-		emark.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				myArraylist = SoapGetmobno1();
-				SampleListAdapter1 sample = new SampleListAdapter1(myArraylist,
-						getApplicationContext());
-		      
-				list = (ListView) findViewById(R.id.listView2);
-				//list.cle
-				list.setAdapter(sample);
-			}
-
-		
-		});
 	}
 	protected ArrayList<HashMap<String, String>> SoapGetmobno() {
 		ArrayList<HashMap<String, String>> lista = new ArrayList<HashMap<String, String>>();
